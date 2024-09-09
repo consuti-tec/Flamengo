@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Escola Flamengo",
+    "slug": "escola-flamengo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#C03438"
+    },
+    "androidNavigationBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#C03438"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/790ff192-567f-4233-9ba6-2faac330a9d8"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#C03438"
+      },
+      "package": "com.sporti.escolaflamengo",
+      "permissions": []
+    },
+    "ios": {
+      "buildNumber": "1.0",
+      "bundleIdentifier": "com.sporti.escolaflamengo",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to collect the user's profile photo, which can be fictitious.",
+        "NSMicrophoneUsageDescription": "This app uses the microphone if the user wants to record a video"
+      }
+    },
+    "main": "node_modules/expo/AppEntry.js",
+    "description": "",
+    "extra": {
+      "eas": {
+        "projectId": "790ff192-567f-4233-9ba6-2faac330a9d8"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
